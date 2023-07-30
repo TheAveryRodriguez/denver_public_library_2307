@@ -138,7 +138,7 @@ Method Name                           | Return Value (type)
 `books`                               | `Array` of `Book` objects
 `authors`                             | `Array` of `Author` objects
 `add_author(author)`                  | `authors` (`Array` of `Author` objects)
-`publication_time_frame_for(author)`  | `Hash` with two key/value pairs: `:start` which points to the publication year of the `Author`'s first book and `:end` which points to the publication year of the `Author`'s last book. Example: `{:start => "1847", :end => "1857}`
+`publication_time_frame_for(author)`  | `Hash` with two key/value pairs: `:start` which points to the publication year of the `Author`'s first book and `:end` which points to the publication year of the `Author`'s last book. Example: `{:start => "1847", :end => "1857"}`
 
 ## Iteration 4
 
